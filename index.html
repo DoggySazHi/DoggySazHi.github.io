@@ -1,6 +1,12 @@
 <html>
   <head>
-    <meta http-equiv="refresh" content="1;url=https://williamle.com/" />
+    <script type="text/javascript">
+      window.onload = function() {
+          // Redirect if root page
+          if (location.pathname == "/")
+            window.location.replace("http://williamle.com");
+      }
+    </script>
   </head>
   <body>
     <a href="https://williamle.com">quack.</a>
